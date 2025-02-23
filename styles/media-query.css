@@ -18,6 +18,39 @@
   .banner-img {
     width: 90%;
   }
+
+  /* main */
+  /* feature */
+  .features {
+    width: 90%;
+  }
+  .feature-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-content {
+    flex-direction: column;
+  }
+
+  /* feature you will love */
+  .feature-you-will {
+    width: 90%;
+  }
+  .feature-you-will-content {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .experience {
+    margin-top: -80px;
+    margin-left: 0px;
+  }
+  .feature-you-will-img .experience button {
+    padding: 22px 20px;
+  }
+  .ex-span1 {
+    font-size: 3rem;
+  }
 }
 
 /* for tablet */
@@ -39,6 +72,43 @@
   .banner-img {
     width: 90%;
   }
+
+  /* main */
+  /* feature */
+  .features {
+    width: 90%;
+  }
+  .feature-details h1 {
+    font-size: 2rem;
+  }
+  .feature-details p {
+    margin: 20px 0 25px 0;
+  }
+
+  /* feature you will love */
+  .feature-you-will {
+    width: 90%;
+  }
+  .feature-you-will-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-details,
+  .content-card-details,
+  .feature-you-will-img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .experience {
+    margin-top: -80px;
+    margin-left: 0px;
+  }
+  .feature-you-will-img .experience button {
+    padding: 22px 20px;
+  }
+  .ex-span1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -49,6 +119,36 @@
   .banner-img {
     width: 90%;
   }
+  /* main */
+  /* feature */
+  .features {
+    width: 90%;
+  }
+
+  /* feature you will love */
+  .feature-you-will {
+    width: 90%;
+  }
+  .feature-you-will-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-details,
+  .content-card-details,
+  .feature-you-will-img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .experience {
+    margin-top: -80px;
+    margin-left: 0px;
+  }
+  .feature-you-will-img .experience button {
+    padding: 22px 20px;
+  }
+  .ex-span1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1599px) {
@@ -57,6 +157,26 @@
   }
 
   .banner-img {
-    width: 90%;
+    width: 80%;
+  }
+  /* main */
+  /* feature */
+  .features {
+    width: 80%;
+  }
+
+  .feature-you-will {
+    width: 80%;
+  }
+  .content-details {
+    width: 40%;
+  }
+  .feature-you-will-img {
+    width: 40%;
+  }
+
+  .feature-you-will-content {
+    align-items: flex-start;
+    gap: 20px;
   }
 }
